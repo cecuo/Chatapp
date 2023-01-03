@@ -1,0 +1,35 @@
+#input {
+    position: absolute;
+    width: 60%;
+    height: 8%;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+    display: flex;
+  } 
+  #input textarea {
+    all: unset;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+    font-size: 150%;
+    width: 85%;
+    height: 100%;
+    word-wrap: break-word;
+          word-break: break-all;
+  }
+  
+  #input button{
+    all: unset;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: rgb(56, 56, 231);
+    width: 14%;
+    text-align: center;
+    font-size: 3vh;
+    border-radius:8px;
+    cursor: pointer;
+    margin-left: 1%;
+  }
+  #input button:active {
+    transform: scale(0.95);
+  }

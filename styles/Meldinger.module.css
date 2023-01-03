@@ -1,0 +1,46 @@
+#meldinger {
+  position: absolute;
+  height: 80%;
+  width: 100%;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  overflow-y: scroll;
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#meldinger::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
+}
+
+
+
+
+
+.innhold {
+  text-align: center;
+  font-size: 3vh;
+}
+
+.navn {
+  text-align: center;
+  font-size: 2vh;
+  color: rgb(54, 54, 54);
+}
+
+.melding {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
